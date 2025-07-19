@@ -21,7 +21,7 @@ If you have a Broadcom access token, skip to step 5.
    `manualUpdateUrl1="your_custom_url.zip"`
 3. Set the expected zip filename:
    `manualUpdate1="your-esxi-offline-bundle.zip"`
-4. Run the script and choose **Option 1** (or run the script from the same directory as source zip file)
+4. Run the script and choose **Option 1** (run the script from the same directory as your source zip file)
 5. Save your your Broadcom acess between quotes in `$TOKEN = ""` and run the script with **Option 2**
 
 > ⚠️ **Important:** Always verify the SHA256 checksum when using non-VMware sources. Official release checksums can be found [here](https://techdocs.broadcom.com/us/en/vmware-cis/vsphere/vsphere/8-0/release-notes/esxi-update-and-patch-release-notes.html).
